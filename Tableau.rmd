@@ -20,20 +20,34 @@ knitr::opts_chunk$set(fig.width=10,fig.height=7,fig.path='Figs/',
 
 
 ## Link to my Tableau Workbook
-https://public.tableau.com/profile/n4tab#!/vizhome/BaseballPerformanceStory_0/BaseballPerformanceStory?publish=yes
+Version 3
+https://public.tableau.com/profile/n4tab#!/vizhome/BaseballPerformanceStoryV3/BaseballPerformanceStory?publish=yes
+
+Version 2
+https://public.tableau.com/profile/n4tab#!/vizhome/BaseballPerformanceStoryV2/BaseballPerformanceStory?publish=yes
+
+Version 1
+https://public.tableau.com/profile/n4tab#!/vizhome/BaseballPerformanceStoryV1/BaseballPerformanceStory?publish=yes
+
 
 ## Summary
 THis baseball dataset is provided by Udacity to create a Tableau story. 
 
 In my Tableau workbook, visualizations have been created to answer the following questions:
-1. Diference between different handedness players in batting average and home runs.
-2. Effect of height and weight on the performance.
-3. Relationship between batting average and home runs.
+
+1. Diference between different handedness players in batting average and home runs. As shown in the last part of the story, overall, no obvious difference between left hand and right hand players. Both hands players have higher average home runs when average batting average is around 0.27.
+
+2. Effect of height and weight on the performance. As in the second and third part of the story, overall, the weight and height have a negative effecton the batting average, but no obvious effect on the home runs. 
+
+3. Relationship between batting average and home runs. As shown in the last part, for the majority players, batting average have a positive relationship between home runs before 0.27. 
 
 ## Design:
 1. The first part of the story is to show the number of players of each handedness and the distribution of batting average and home runs of each handedness. At first, a pie chart is used to show the percentage of each handedness. After receiving the feedback from my roommate, a table of number of players is added.
+
 2. The second part to show the relationship between batting average and the player's weight and height. At first, a scatter plot is created to show the relationship. My roommate said the scatter plot is not clear compared with a line chart with average batting average over the weight and height. Therefore, a chart combined a histogram and line graph with two y axes is created to show the relationship.
+
 3. The same design reason is adopted when develop the third part of the story to show the relationship between the home run and the player's weight and height. 
+
 4. A combined chart is created to show the relationship between the home runs and batting average. 
 
 

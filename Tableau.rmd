@@ -1,0 +1,51 @@
+---
+title: "Baseball Story Using Tableau"
+author: "Noah Zheng"
+date: "January 11, 2019"
+output: 
+  html_document:
+    toc: true
+    toc_depth: 3
+    toc_float: true
+    theme: lumen
+    highlight: textmate
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(fig.width=10,fig.height=7,fig.path='Figs/',
+                      fig.align='center',tidy=TRUE,
+                      echo=FALSE,warning=FALSE,message=FALSE)
+
+```
+
+
+## Link to my Tableau Workbook
+https://public.tableau.com/profile/n4tab#!/vizhome/BaseballPerformanceStory_0/BaseballPerformanceStory?publish=yes
+
+## Summary
+THis baseball dataset is provided by Udacity to create a Tableau story. 
+
+In my Tableau workbook, visualizations have been created to answer the following questions:
+1. Diference between different handedness players in batting average and home runs.
+2. Effect of height and weight on the performance.
+3. Relationship between batting average and home runs.
+
+## Design:
+1. The first part of the story is to show the number of players of each handedness and the distribution of batting average and home runs of each handedness. At first, a pie chart is used to show the percentage of each handedness. After receiving the feedback from my roommate, a table of number of players is added.
+2. The second part to show the relationship between batting average and the player's weight and height. At first, a scatter plot is created to show the relationship. My roommate said the scatter plot is not clear compared with a line chart with average batting average over the weight and height. Therefore, a chart combined a histogram and line graph with two y axes is created to show the relationship.
+3. The same design reason is adopted when develop the third part of the story to show the relationship between the home run and the player's weight and height. 
+4. A combined chart is created to show the relationship between the home runs and batting average. 
+
+
+## Feedbacks:
+1. "It would be much clearer to show the total number of players and the number of each handedness rather than only a percentage on a pie chart".
+
+2. "The scatter plot cannot show a clear pattern in your story. You can try to combine the count of players of different weight and their average batting average. You have to create a weight bin to do this."
+
+## Resources:
+- https://www.tableau.com/learn/training
+- https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_bins.htm
+- https://docs.google.com/document/d/1w7KhqotVi5eoKE3I_AZHbsxdr-NmcWsLTIiZrpxWx4w/pub?embedded=true
+
+
+
